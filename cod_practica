@@ -1,0 +1,58 @@
+class SphericalCoordinate:
+    def _init_(self, lat, long):
+        self.lat = lat
+        self.long = long
+
+    def _str_(self):
+        return "lat:{0}, long:{1}".format(self.lat, self.long)
+
+
+gc1 = SphericalCoordinate()
+gc2 = SphericalCoordinate()
+
+
+def Azimuth(gc1, gc2):
+    pass
+
+
+def Distance():
+    pass
+
+
+def EndPosition():
+    pass
+
+
+def Interpolate():
+    pass
+
+
+def IntersectionWithMeridian():
+    pass
+
+
+print(
+    "Choices:\n 1 - unghiul de la prima locatie la a doua\n 2 - distanta unghiulara\n 3 - locatia pe un arc de cerc (in radiani)\n 4 - interpolare intre doua locatii succesive\n 5 - intersectia dintre un arc de doua locatii cu un  meridian dat")
+# de scris variantele in engleza sa fim profesionisti :))))))))
+
+x = input("Please enter your choice:\n")
+
+x = int(x)
+
+if x == 1:
+    pass
+    # Azimuth()
+elif x == 2:
+    pass
+    # Distance()
+elif x == 3:
+    pass
+    # EndPosition()
+elif x == 4:
+    pass
+    # Interpolate()
+elif x == 5:
+    pass
+    # IntersectionWithMeridian()
+else:
+    print('wrong choice')
