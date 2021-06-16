@@ -1,9 +1,9 @@
 class SphericalCoordinate:
-    def _init_(self, lat, long):
+    def __init__(self, lat, long):
         self.lat = lat
         self.long = long
 
-    def _str_(self):
+    def __str__(self):
         return "lat:{0}, long:{1}".format(self.lat, self.long)
 
 
